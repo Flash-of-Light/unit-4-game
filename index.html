@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Crystals</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- I know the assignment said to use reset and CSS styling but I spent all my time getting the coding to work so didn't mess with appearances.
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/game.js"></script>
+  </head>
+
+<!--the rules and images-->
+<body>
+    <h1>Crystal Collectors</h1>
+    <img src="assets/images/Green_Tiberium.jpg" style="height:200px;width:266px;">
+    <br>
+    <br>
+    <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">The Rules</h4>
+            <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>The value of each crystal is hidden from you until it is clicked on. The value of each crystal will change for every new game.</p>
+            <p>You win the game by matching your total score to the random number. You lose the game if your score exceeds the goal.</p>
+          </div>
+        <p></p>
+    <p></p>
+    <p></p>
+
+    <button type="button" id="goal" class="btn btn-warning btn-lg">Target Score:</button>
+    <button type="button" id="total" class="btn btn-primary btn-lg">Current Score:</button>
+    <button type="button" id="wins" class="btn btn-warning btn-lg">Wins:</button>
+    <button type="button" id="losses" class="btn btn-primary btn-lg">Losses:</button>
+<br>
+<br>
+
+<!--the four gem buttons-->
+    <button type="button" id="crystal1" class="btn btn-primary">Sapphire</button>
+    <button type="button" id="crystal2" class="btn btn-secondary">Obsidian</button>
+    <button type="button" id="crystal3" class="btn btn-success">Emerald</button>
+    <button type="button" id="crystal4" class="btn btn-danger">Ruby</button>
+
+
+</body>
+</html>
